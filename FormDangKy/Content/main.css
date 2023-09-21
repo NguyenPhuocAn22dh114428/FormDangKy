@@ -1,0 +1,97 @@
+﻿body {
+}
+#div-form {
+    border: 1px solid;
+    width: 50%;
+    height: 80vh;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+#div-header {
+    height: 100px;
+    width: 100%;
+    text-align: center;
+}
+
+    #div-header h1 {
+        font-size: 30px;
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }
+
+#div-nagavitor {
+    margin-left: 25vh;
+}
+
+#btn-gg {
+    display: inline;
+}
+
+#btn-apple {
+    display: inline;
+}
+
+.pic1 {
+    width: 20px;
+    height: 20px;
+}
+
+.pic2 {
+    width: 20px;
+    height: 20px;
+}
+
+#div-input {
+    margin-top: 20px;
+}
+
+.input1 {
+    width: 90%;
+    height: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.input2 {
+    width: 90%;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.input3 {
+    width: 90%;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+#div-container {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#btn-signup {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.btn1 {
+    color: white;
+    text-align: center;
+    background-color: #0075ff;
+    width: 90%;
+    height: 30px;
+}
+
+#div-register {
+    margin-top: 20px;
+    margin-left: 30%;
+}
+

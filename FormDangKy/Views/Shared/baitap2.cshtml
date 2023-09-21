@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link href="~/Content/main.css" rel="stylesheet" />
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    <div>
+        @RenderBody()
+    </div>
+    <div id="div-form">
+        <div id="div-header">
+            <h1>Sign Up</h1><br />
+            Your Social Campaigns
+        </div>
+        <div id="div-nagavitor">
+            <div id="btn-gg">
+                <img class="pic1" src="https://s.yimg.com/fz/api/res/1.2/BpNQlda3dvhXF2ybzi5uIw--~C/YXBwaWQ9c3JjaGRkO2g9MTQ0O3E9ODA7dz0xNDQ-/https://s.yimg.com/zb/imgv1/e76fa261-e45b-3514-872d-e8fa3a2473e5/t_500x300">
+                <input type="submit" value="Sign in with google">
+            </div>
+            <div id="btn-apple">
+                <img class="pic2" src="https://s3.amazonaws.com/freebiesupply/large/2x/apple-logo-transparent.png">
+                <input type="submit" value="Sign in with apple">
+            </div>
+        </div>
+        <div id="div-input">
+            <input class="input1" type="email" placeholder="Email"><br>
+            <input class="input2" type="password" placeholder="Password"><br>
+            <input class="input3" type="password" placeholder="Repeat Password">
+        </div>
+        <div id="div-container">
+            <input type="checkbox"> I Accept the <a style="text-decoration-line: none;color:#0075ff" href="https://policies.google.com/terms?hl=vi">Terms</a>
+        </div>
+        <div id="btn-signup">
+            <input class="btn1" type="button" value="Sign up">
+        </div>
+        <div id="div-register">
+            Already have an Account? <a href="" style="text-decoration-line: none; color:#0075ff">Sign in</a>
+        </div>
+    </div>
+</body>
+</html>
